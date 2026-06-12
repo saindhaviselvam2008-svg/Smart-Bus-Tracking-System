@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* 🟢 DIRECT ROOT INJECTION - BYPASSES TAILWIND COMPILER LIMITS */
+:root {
+  --background: #f0f7ff;      /* Sky-blue canvas background */
+  --text: #1e293b;            /* Dark slate readable text */
+  --text-h: #0f172a;          /* Deep navy header color */
+  
+  --accent: #2563eb;          /* Vibrant primary button blue */
+  --accent-bg: #e0f2fe;       /* Soft light blue card highlight */
+  --accent-border: #93c5fd;   /* Hover focus border */
+  
+  --border: #dbeafe;          /* Light slate dividing line border */
+  --social-bg: #ffffff;       /* Pure white grid tile backgrounds */
+}
+
+/* Bind values explicitly to the browser page canvas wrapper */
+body {
+  background-color: var(--background) !important;
+  color: var(--text) !important;
+}
