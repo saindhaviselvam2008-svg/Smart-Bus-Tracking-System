@@ -149,8 +149,9 @@ Stores user information, attendance records, bus details, and lost item data.
 - GitHub
 
 ---
-# 📂 Project Structure
+## 📂 Project Structure
 
+```text
 Smart-Bus-Tracking-System
 │
 ├── ai-backend/
@@ -158,27 +159,18 @@ Smart-Bus-Tracking-System
 │   ├── attendance_api.py
 │   ├── face_login.py
 │   ├── train.py
-│   └── face recognition modules
 │
 ├── public/
-│   ├── static assets
-│   └── public resources
 │
 ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── services/
-│   ├── App.jsx
-│   └── main.jsx
 │
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
-├── package.json
 ├── package-lock.json
-├── vercel.json
-└── README.md
-
+├── package.json
+├── README.md
+└── vercel.json
 ```
 
 # 🌟 Core Modules
@@ -220,19 +212,19 @@ Smart-Bus-Tracking-System
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/smart-bus-tracking-system.git
+git clone https://github.com/saindhaviselvam2008-svg/smart-bus-tracking-system.git
 ```
 
 ## Navigate to Project Directory
 
 ```bash
-cd smart-bus-tracking-system
+cd waypoint
 ```
 
 ## Frontend Setup
 
 ```bash
-cd frontend
+cd waypoint
 npm install
 npm start
 ```
@@ -287,7 +279,7 @@ This project reflects practical problem-solving skills, software engineering pri
 
 # 👩‍💻 Developed By
 
-### Saindhavi Selvam & Team
+### Saindhavi.S & Team
 
 **Department of Computer Science & Engineering**
 
